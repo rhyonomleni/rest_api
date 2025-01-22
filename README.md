@@ -73,4 +73,224 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 {
   "token": "<your-auth-token>"
 }
+```
 
+#### GET User Details
+**Endpoint:** `GET /api/user/{id}`  
+**Description:** Mengambil detail data seorang pengguna.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+#### PUT Update User
+**Endpoint:** `PUT /api/user/{id}`  
+**Description:** Memperbarui data pengguna.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+**Body:**
+```json
+{
+  "nama_lengkap": "Andrian",
+  "tanggal_lahir": "01-02-2002",
+  "tempat_lahir": "Jakarta",
+  "no_telp": "081234567890",
+  "alamat": "Jakarta",
+  "pendidikan_terakhir": "SMA",
+  "klasis": "Yogyakarta",
+  "profesi": "PNS",
+  "profile_picture": "https://example.com/profile.jpg"
+}
+```
+
+#### DELETE User
+**Endpoint:** `DELETE /api/user/{id}`  
+**Description:** Menghapus data pengguna.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+---
+
+### Doa
+
+#### GET All Doa
+**Endpoint:** `GET /api/doa`  
+**Description:** Mengambil semua data doa.  
+
+#### POST Create Doa
+**Endpoint:** `POST /api/doa`  
+**Description:** Menambahkan data doa.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+**Body:**
+```json
+{
+  "judul": "Doa awal tahun",
+  "tanggal": "2021-11-02",
+  "detail": "Untuk memulai tahun yang baru"
+}
+```
+
+#### PUT Update Doa
+**Endpoint:** `PUT /api/doa/{id}`  
+**Description:** Memperbarui data doa.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+**Body:**
+```json
+{
+  "judul": "Doa akhir tahun",
+  "detail": "Untuk mengakhiri tahun"
+}
+```
+
+#### DELETE Doa
+**Endpoint:** `DELETE /api/doa/{id}`  
+**Description:** Menghapus data doa.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+---
+
+### Renungan
+
+#### GET All Renungan
+**Endpoint:** `GET /api/renungan`  
+**Description:** Mengambil semua data renungan.  
+
+#### POST Create Renungan
+**Endpoint:** `POST /api/renungan`  
+**Description:** Menambahkan data renungan.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+**Body:**
+```json
+{
+  "judul": "Renungan malam",
+  "tanggal": "2024-09-02",
+  "nats": "Matius 2:1",
+  "ayat": "Lorem ipsum",
+  "renungan": "Lorem ipsum"
+}
+```
+
+#### PUT Update Renungan
+**Endpoint:** `PUT /api/renungan/{id}`  
+**Description:** Memperbarui data renungan.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+#### DELETE Renungan
+**Endpoint:** `DELETE /api/renungan/{id}`  
+**Description:** Menghapus data renungan.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+---
+
+### Ibadah
+
+#### GET All Ibadah
+**Endpoint:** `GET /api/ibadah`  
+**Description:** Mengambil semua data ibadah.  
+
+#### POST Create Ibadah
+**Endpoint:** `POST /api/ibadah`  
+**Description:** Menambahkan data ibadah.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+#### PUT Update Ibadah
+**Endpoint:** `PUT /api/ibadah/{id}`  
+**Description:** Memperbarui data ibadah.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+#### DELETE Ibadah
+**Endpoint:** `DELETE /api/ibadah/{id}`  
+**Description:** Menghapus data ibadah.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+---
+
+### Kegiatan
+
+#### GET All Kegiatan
+**Endpoint:** `GET /api/kegiatan`  
+**Description:** Mengambil semua data kegiatan.  
+
+#### POST Create Kegiatan
+**Endpoint:** `POST /api/kegiatan`  
+**Description:** Menambahkan data kegiatan.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+#### PUT Update Kegiatan
+**Endpoint:** `PUT /api/kegiatan/{id}`  
+**Description:** Memperbarui data kegiatan.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
+```
+
+#### DELETE Kegiatan
+**Endpoint:** `DELETE /api/kegiatan/{id}`  
+**Description:** Menghapus data kegiatan.  
+**Headers:**
+```json
+{
+  "token": "<your-auth-token>"
+}
