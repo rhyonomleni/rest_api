@@ -24,3 +24,11 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Langkah-langkah menjalankan aplikasi:
+1. Clone repositori.
+2. Buka project di code editor, di terminal jalankan perintah 'composer update'.
+3. Jika belum terinstal composer pada komputer, instal composer dengan panduan sebagai berikut https://getcomposer.org/doc/00-intro.md.
+4. Pastikan php_mysqli sudah terinstal pada komputer.
+5. Buat file .env sesuai kebutuhan dengan acuan pada file .env.example.
+6. Jalankan aplikasi dengan perintah 'php -S localhost:5000 -t public'.
