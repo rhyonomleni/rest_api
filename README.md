@@ -33,7 +33,7 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 5. Untuk database, import menggunakan gki_api.sql.
 6. Buat file .env sesuai kebutuhan dengan acuan pada file .env.example.
 7. Jalankan aplikasi dengan perintah 'php -S localhost:5000 -t public'.
-8. Jika terdapat error session store not set on request, masukkan session.php ke direktori Gereja/vendor/laravel/lumen-framework/config dan ulangi langkah 6
+8. Jika terdapat error session store not set on request, masukkan session.php ke direktori Gereja/vendor/laravel/lumen-framework/config dan ulangi langkah 7.
 
 # Dokumentasi REST API
 
