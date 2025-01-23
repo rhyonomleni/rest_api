@@ -30,9 +30,10 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 2. Buka project di code editor, di terminal jalankan perintah 'composer update'.
 3. Jika belum terinstal composer pada komputer, instal composer dengan panduan sebagai berikut https://getcomposer.org/doc/00-intro.md.
 4. Pastikan php_mysqli sudah terinstal pada komputer.
-5. Buat file .env sesuai kebutuhan dengan acuan pada file .env.example.
-6. Jalankan aplikasi dengan perintah 'php -S localhost:5000 -t public'.
-7. Jika terdapat error session store not set on request, masukkan session.php ke direktori Gereja/vendor/laravel/lumen-framework/config dan ulangi langkah 6
+5. Untuk database, import menggunakan gki_api.sql.
+6. Buat file .env sesuai kebutuhan dengan acuan pada file .env.example.
+7. Jalankan aplikasi dengan perintah 'php -S localhost:5000 -t public'.
+8. Jika terdapat error session store not set on request, masukkan session.php ke direktori Gereja/vendor/laravel/lumen-framework/config dan ulangi langkah 6
 
 # Dokumentasi REST API
 
