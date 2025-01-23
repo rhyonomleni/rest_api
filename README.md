@@ -32,6 +32,7 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 4. Pastikan php_mysqli sudah terinstal pada komputer.
 5. Buat file .env sesuai kebutuhan dengan acuan pada file .env.example.
 6. Jalankan aplikasi dengan perintah 'php -S localhost:5000 -t public'.
+7. Jika terdapat error session store not set on request, masukkan session.php ke direktori Gereja/vendor/laravel/lumen-framework/config
 
 # Dokumentasi REST API
 
